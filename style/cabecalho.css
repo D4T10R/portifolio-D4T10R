@@ -1,0 +1,19 @@
+.cabecalho {
+    padding: 1em 10em;
+    width: 80vw;
+}
+
+.cabecalho__lista {
+    display: flex;
+    justify-content: right;
+    gap: 2em;
+    
+}
+
+.cabecalho__lista__itens a {
+    font-family: var(--font-plus-jakar);
+    font-size: 20px;
+    color: var(--cor-da-font);
+    text-decoration: none;
+    font-weight: 600;
+}

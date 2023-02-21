@@ -1,0 +1,39 @@
+
+.apresentacao {
+    margin: 5em 20em 0 20em;
+    height: 50vh;
+    background: url("../img/Gradient.svg") no-repeat;
+    display: flex;
+}
+
+.apresentacao__img {
+    margin: 4.5em 0 0 4.5em;
+}
+
+.apresentacao__descricao {
+   
+    margin: 5em 0 0 0;
+}
+
+.apresentacao__descricao__funcao {
+    margin: 4em 0 0.5em 2em;
+    font-family: var(--font-preah);
+    font-size: 17px;
+    color: var(--cor-da-font);
+}
+
+.apresentacao__descricao__titulo {
+    font-family: var(--font-preah);
+    font-size: 50px;
+    margin: 0 0 1em 0.5em;
+    
+}
+
+.apresentacao__descricao__titulo strong {
+    color: var(--cor-roxo-secundario);
+}
+
+.apresentacao__descricao__texto {
+    font-size: 18px;
+    width: 70%;
+}
