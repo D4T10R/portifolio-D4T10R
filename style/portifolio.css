@@ -1,0 +1,53 @@
+.portifolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portifolio__descricao {
+    position: absolute;
+    width: 100%;
+    left: 20%;
+}
+
+.portifolio__funcao {
+    font-family: var(--font-poppins);
+    color: var(--cor-roxo-claro);
+    font-weight: 600;
+}
+
+.portifolio__titulo {
+    margin: 0.5em 0 2em 0;
+}
+
+.portifolio__titulo a:hover {
+    color: blueviolet;
+}
+
+.portifolio__titulo a {
+    font-family: var(--font-poppins);
+    font-size: 34px;
+    color: var(--cor-branco-link);
+    text-decoration: none;
+}
+
+.portifolio__titulo a strong {
+    color: var(--cor-cinza-principal);
+}
+
+.portifolio__titulo img {
+    margin-left: 1em;
+}
+
+
+.portifolio__imagem {
+    width: 80%;
+    border: 8px solid var(--cor-roxo-terciario);
+}
+
+.portifolio__texto {
+    margin: 2em 0;
+    font-family: var(--font-poppins);
+    font-size: 18px;
+    font-weight: 500;
+}

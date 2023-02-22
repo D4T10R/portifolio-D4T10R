@@ -1,0 +1,28 @@
+.rodape {
+    width: 50%;
+}
+
+.rodape__titulo {
+    font-family: var(--font-preah);
+    font-size: 40px;
+    margin: 3em 0 1.5em 0;
+}
+
+.rodape__lista__itens {
+    display: flex;
+    gap: 2em;
+    margin: 1em 0 0.5em 0;
+}
+
+.rodape__subtitulo {
+    width: 20%;
+}
+
+.rodape__icone {
+    margin-right: 0.2em;
+}
+
+.rodape__lista-icones {
+    display: flex;
+    margin: 2em 0;
+}
