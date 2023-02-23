@@ -28,6 +28,15 @@
     background-color: #11071F;
     font-family: var(--font-principal);
     color: var(--cor-da-font);
+
+}
+
+main {
+    width: 100%;
+}
+
+header {
+    width: 100%;
 }
 
 main {

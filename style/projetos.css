@@ -4,7 +4,6 @@
     flex-direction: column;
     padding:  0 24em;
     height: 50vh;
-    background-position: center;
 }
 
 .projetos__titulo {
@@ -43,5 +42,27 @@
     font-family: var(--font-poppins);
     font-size: 12px;
     font-weight: 500;
+
+}
+
+@media screen and (min-width: 720px) and (max-width: 1220px) {
+    
+    .projetos {
+        margin-top: 1em;
+        padding: 0 0 0 1em;
+    }
+
+    .projetos__titulo {
+        font-size: 24px;
+    }
+
+    .projetos__itens {
+        width: 80%;
+        margin: 0;
+    }
+
+    .projetos__itens__sobre {
+        margin: 5em 0 0 5em;
+    }
 
 }

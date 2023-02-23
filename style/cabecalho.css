@@ -17,3 +17,24 @@
     text-decoration: none;
     font-weight: 600;
 }
+
+@media screen and (min-width: 720px) and (max-width: 1220) {
+    
+    .cabecalho {
+        width: 100%;
+        padding: 10em 2em 3em 3em;
+    }
+
+    .cabecalho__lista {
+        display: flex;
+        justify-content: right;
+        gap: 1em;
+    }
+
+    .cabecalho__lista__itens a {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+
+}
